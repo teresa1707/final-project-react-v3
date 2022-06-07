@@ -13,7 +13,7 @@ const articles = [
     },
     {
         id: 2,
-        href: 'images/venise.jpg',
+        link: 'images/venise.jpg',
         image: 'images/venise.jpg',
         categoryIcon: 'images/rome25.png',
         title: 'Ipsum dolor sit',
@@ -26,7 +26,7 @@ const articles = [
     },
     {
         id: 3,
-        href: 'images/veloAttached.jpg',
+        link: 'images/veloAttached.jpg',
         image: 'images/veloAttached.jpg',
         categoryIcon: 'images/theater30.png',
         title: 'Ipsum dolor sit',

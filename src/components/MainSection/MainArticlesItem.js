@@ -22,7 +22,7 @@ export const MainArticlesItem = ({
                     sm={5}
                     className="title3-photo title3-container"
                 >
-                    <a href={link} target="_blank">
+                    <a href="#" target="_blank">
                         <img src={image} alt="" />
                     </a>
                 </Grid>

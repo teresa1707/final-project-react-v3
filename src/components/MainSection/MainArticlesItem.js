@@ -15,7 +15,7 @@ export const MainArticlesItem = ({
 }) => {
     return (
         <>
-            <Grid container sx={12}>
+            <Grid container>
                 <Grid
                     item
                     xs={12}

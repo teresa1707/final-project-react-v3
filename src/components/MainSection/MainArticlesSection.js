@@ -12,18 +12,18 @@ export const MainArticlesSection = () => {
                 {ArticlesArray.map(
                     ({
                         id,
-                        image,
                         link,
+                        image,
                         categoryIcon,
                         title,
                         text,
                         date,
                         author,
                     }) => (
-                        <Grid item xs={12} sm={8} key={id} className="gridItem">
+                        <Grid item xs={12} sm={8} key={id}>
                             <MainArticlesItem
-                                image={image}
                                 link={link}
+                                image={image}
                                 categoryIcon={categoryIcon}
                                 title={title}
                                 text={text}

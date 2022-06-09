@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid'
 import { Container } from '@mui/system'
 import { MainColumnItems } from './MainColumnItems'
 import { MainArticlesSection } from './MainArticlesSection'
+import { Title } from './Title'
 
 export const MainSection = () => {
     return (
@@ -11,7 +12,7 @@ export const MainSection = () => {
             <Container>
                 <Grid container>
                     <Grid item xs={12} className="title">
-                        Welcome to my website created with React
+                        <Title />
                     </Grid>
                     <Grid item xs={12} sm={4}>
                         <MainColumnItems />

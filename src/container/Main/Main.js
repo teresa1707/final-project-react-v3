@@ -6,7 +6,6 @@ import { MainSection } from 'components/MainSection/MainSection'
 export const Main = () => {
     return (
         <>
-            SLIDER
             <div className="wrapper-dark">
                 <MainDarkSection />
             </div>

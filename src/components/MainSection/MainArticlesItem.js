@@ -2,7 +2,9 @@ import React from 'react'
 import { Grid } from '@mui/material'
 import 'styles/Main.scss'
 import 'styles/grid.scss'
-import like from 'Assets/Heart-white1-23.png'
+import './useful.scss'
+import { MaterialUISwitch } from './MaterialUISwitch'
+import like from 'Assets/red-heart23.png'
 
 export const MainArticlesItem = ({
     image,
@@ -15,32 +17,40 @@ export const MainArticlesItem = ({
 }) => {
     return (
         <>
-            <Grid container>
+            <Grid container className="col-style">
                 <Grid
                     item
                     xs={12}
-                    sm={5}
+                    md={5}
                     className="title3-photo title3-container"
                 >
-                    <a href={link} target="_blank">
-                        <img src={image} alt="" />
-                    </a>
+                    <figure className="snip0016">
+                        <img src={image} alt="sample41" />
+                        <figcaption>
+                            <h2 className="title3">{title}</h2>
+                            <a href={link} target="_blank">
+                                <p>read more...</p>
+                            </a>
+                            <a href="#"></a>
+                        </figcaption>
+                    </figure>
                 </Grid>
 
-                <Grid item xs={12} sm={7} className="title3-container gridItem">
+                <Grid item xs={12} md={7} className="title3-container">
                     <div className="inline">
                         <button type="button" title="history" className="tag">
                             <img src={categoryIcon} alt="" />
                         </button>
-
-                        <div className="title3 ">{title}</div>
+                        <h2 className="title3"></h2>
                     </div>
+                    <h2 className="title3-card">{title}</h2>
                     <div className="text">
                         <p>{text}</p>
                     </div>
                     <button type="button" title="Like" className="iconLike">
                         <img src={like} alt="" />
-                    </button>{' '}
+                    </button>
+                    {/* <MaterialUISwitch className="iconLike" /> */}
                     {date} {author}
                 </Grid>
             </Grid>

@@ -9,19 +9,29 @@ export const Menu = () => {
                 <nav className="navigation">
                     <ul>
                         <li>
-                            <a href="#">home</a>
+                            <a className="nav-item" href="#">
+                                home
+                            </a>
                         </li>
                         <li>
-                            <a href="#">category</a>
+                            <a className="nav-item" href="#">
+                                category
+                            </a>
                         </li>
                         <li>
-                            <a href="#">blog</a>
+                            <a className="nav-item" href="#">
+                                blog
+                            </a>
                         </li>
                         <li>
-                            <a href="#">gallery</a>
+                            <a className="nav-item" href="#">
+                                gallery
+                            </a>
                         </li>
                         <li>
-                            <a href="#">contact</a>
+                            <a className="nav-item" href="#">
+                                contact
+                            </a>
                         </li>
                     </ul>
                 </nav>

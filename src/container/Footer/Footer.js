@@ -6,7 +6,7 @@ import '../../styles/Main.scss'
 export const Footer = () => {
     return (
         <>
-            <div class="wrapper-beige">
+            <div className="wrapper-beige">
                 <Container className="footer">
                     <Grid container>
                         <Grid item xs={12} sm={4}>
@@ -47,7 +47,7 @@ export const Footer = () => {
                     </Grid>
                 </Container>
             </div>
-            <div class="wrapper-dark">
+            <div className="wrapper-dark">
                 <Container>
                     <Grid container>
                         <Grid item xs={12} sm={10}>
@@ -58,7 +58,7 @@ export const Footer = () => {
                         <Grid item xs={12} sm={2}>
                             <a href="#Top_bar">
                                 <img
-                                    class="footer-img"
+                                    className="footer-img"
                                     src="./assets/arrow-up-20.png"
                                     alt=""
                                 />

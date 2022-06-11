@@ -3,7 +3,7 @@ import { Grid } from '@mui/material'
 import 'styles/Main.scss'
 import 'styles/grid.scss'
 import './useful.scss'
-import { MaterialUISwitch } from './MaterialUISwitch'
+
 import like from 'Assets/red-heart23.png'
 
 export const MainArticlesItem = ({
@@ -50,7 +50,6 @@ export const MainArticlesItem = ({
                     <button type="button" title="Like" className="iconLike">
                         <img src={like} alt="" />
                     </button>
-                    {/* <MaterialUISwitch className="iconLike" /> */}
                     {date} {author}
                 </Grid>
             </Grid>

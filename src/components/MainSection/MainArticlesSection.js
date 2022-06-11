@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid } from '@mui/material'
+
 import 'styles/Main.scss'
 import 'styles/grid.scss'
 import { MainArticlesItem } from './MainArticlesItem'
@@ -20,6 +20,7 @@ export const MainArticlesSection = () => {
                     author,
                 }) => (
                     <MainArticlesItem
+                        id={id}
                         link={link}
                         image={image}
                         categoryIcon={categoryIcon}

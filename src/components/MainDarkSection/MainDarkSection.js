@@ -16,7 +16,7 @@ export const MainDarkSection = () => {
                         <div className="article-1">
                             <div className="sec1-title">
                                 <h3>
-                                    <a href="">
+                                    <a href="#">
                                         <img src={ImgHistory} alt="" />
                                         History
                                     </a>

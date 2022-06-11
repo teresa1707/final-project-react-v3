@@ -28,10 +28,9 @@ export const MainArticlesItem = ({
                         <img src={image} alt="sample41" />
                         <figcaption>
                             <h2 className="title3">{title}</h2>
-                            <a href={link} target="_blank">
+                            <a href={link} target="_blank" rel="noreferrer">
                                 <p>read more...</p>
                             </a>
-                            <a href="#"></a>
                         </figcaption>
                     </figure>
                 </Grid>
@@ -41,7 +40,6 @@ export const MainArticlesItem = ({
                         <button type="button" title="history" className="tag">
                             <img src={categoryIcon} alt="" />
                         </button>
-                        <h2 className="title3"></h2>
                     </div>
                     <h2 className="title3-card">{title}</h2>
                     <div className="text">

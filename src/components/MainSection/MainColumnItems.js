@@ -2,7 +2,7 @@ import React from 'react'
 import Grid from '@mui/material/Grid'
 import 'styles/Main.scss'
 import 'styles/grid.scss'
-import { Card } from 'components/Card/Card'
+
 import FbIcon from 'Assets/facebook-24-blue.png'
 import twitterIcon from 'Assets/twitter-24-blue.png'
 import pinterestIcon from 'Assets/pinterest-24-blue.png'
@@ -27,7 +27,7 @@ export const MainColumnItems = () => {
                     </div>
                 </Grid>
                 <Grid item className="col-style" mb={4}>
-                    {/* <div className="title2">Our mission</div>
+                    <div className="title2">Our mission</div>
                     <div className="text2">
                         <p>
                             Fugiat possimus perferendis odio laudantium error
@@ -35,14 +35,13 @@ export const MainColumnItems = () => {
                             aliquid ut excepturi ea eius, illum labore. Quo,
                             velit et?
                         </p>
-                    </div> */}
-                    <Card />
+                    </div>
                 </Grid>
                 <Grid item className="col-style" mb={4}>
                     <div className="title2">Follow us</div>
                     <div className="text2">
                         <p>
-                            We are here :{' '}
+                            We are here :
                             <a href="#">
                                 <img src={FbIcon} alt="" />
                             </a>

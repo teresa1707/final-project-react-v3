@@ -17,22 +17,22 @@ export default class SimpleSlider extends Component {
             <div>
                 <Slider {...settings}>
                     <div className="slide">
-                        <img src="./images/nasa.jpg" />
+                        <img src="./images/nasa.jpg" alt="" />
                     </div>
                     <div className="slide">
-                        <img src="./images/nasa.jpg" />
+                        <img src="./images/nasa.jpg" alt="" />
                     </div>
                     <div className="slide">
-                        <img src="./images/nasa.jpg" />
+                        <img src="./images/nasa.jpg" alt="" />
                     </div>
                     <div className="slide">
-                        <img src="./images/nasa.jpg" />
+                        <img src="./images/nasa.jpg" alt="" />
                     </div>
                     <div className="slide">
-                        <img src="./images/venise.jpg" />
+                        <img src="./images/venise.jpg" alt="" />
                     </div>
                     <div className="slide">
-                        <img className="img" src="./images/venise.jpg" />
+                        <img className="img" src="./images/venise.jpg" alt="" />
                     </div>
                 </Slider>
             </div>

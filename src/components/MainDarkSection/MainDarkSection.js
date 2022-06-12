@@ -49,7 +49,7 @@ export const MainDarkSection = () => {
                         <div className="article-3">
                             <div className="sec1-title">
                                 <h3>
-                                    <a href="#">
+                                    <a href={ImgArt}>
                                         <img src={ImgArt} alt="" />
                                         Art
                                     </a>

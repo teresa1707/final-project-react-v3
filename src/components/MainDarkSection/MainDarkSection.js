@@ -16,7 +16,7 @@ export const MainDarkSection = () => {
                         <div className="article-1">
                             <div className="sec1-title">
                                 <h3>
-                                    <a href="#">
+                                    <a href={ImgHistory}>
                                         <img src={ImgHistory} alt="" />
                                         History
                                     </a>
@@ -32,7 +32,7 @@ export const MainDarkSection = () => {
                         <div className="article-2">
                             <div className="sec1-title">
                                 <h3>
-                                    <a href="">
+                                    <a href={ImgScience}>
                                         <img src={ImgScience} alt="" />
                                         Science
                                     </a>
@@ -49,7 +49,7 @@ export const MainDarkSection = () => {
                         <div className="article-3">
                             <div className="sec1-title">
                                 <h3>
-                                    <a href="">
+                                    <a href="#">
                                         <img src={ImgArt} alt="" />
                                         Art
                                     </a>
